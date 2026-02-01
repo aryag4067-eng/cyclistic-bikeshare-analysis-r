@@ -1,13 +1,15 @@
 # cyclistic-bikeshare-analysis-r
 A professional-grade data pipeline and exploratory analysis of 12 months of Cyclistic bike-share data. This project leverages Google BigQuery for large-scale data processing and R (tidyverse) for deep-dive statistical analysis and visualization to identify key behavioral differences between casual riders and annual members.
 
-🚲 Cyclistic Bike-Share: Cloud-Integrated Analysis
+###🚲 Cyclistic Bike-Share: Cloud-Integrated Analysis
+
 A Professional-Grade Data Pipeline & Exploratory Analysis
 
-📌 Project Overview
+###📌 Project Overview
+
 This project analyzes 12 months of Cyclistic bike-share data to identify key behavioral differences between casual riders and annual members. Unlike standard local analyses, this project utilizes a scalable cloud-to-IDE pipeline.
 
-🛠️ Technical Stack
+###🛠️ Technical Stack
 
 Storage: Google BigQuery (Cloud Data Warehouse)
 
@@ -17,7 +19,7 @@ Environment: RStudio IDE
 
 Security: Environment variables (.Renviron) for credential masking
 
-🏗️ Data Pipeline Architecture
+###🏗️ Data Pipeline Architecture
 
 Cloud Hosting: Raw trip data is stored in Google BigQuery datasets.
 
