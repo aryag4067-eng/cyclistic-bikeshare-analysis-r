@@ -1,3 +1,6 @@
+# LOGIC: Cloud Integration. Connects directly to BigQuery to avoid 
+# heavy local CSV downloads and enable scalable analysis.
+
 library(bigrquery)
 library(DBI)
 
