@@ -23,13 +23,21 @@ Security: Environment variables (.Renviron) for credential masking
 
 I established a secure, cloud-integrated pipeline to handle large-scale datasets efficiently.
 
-Secure Cloud Connection: I used OAuth 2.0 to authenticate with Google BigQuery, ensuring a secure handshake between my local IDE and the cloud warehouse. ![BigQuery Auth Proof](Screenshot 2026-02-02 204812.png)
+Secure Cloud Connection: I used OAuth 2.0 to authenticate with Google BigQuery, ensuring a secure handshake between my local IDE and the cloud warehouse. 
 
-Automated Token Refresh: The pipeline handles stale tokens automatically, allowing for uninterrupted analysis of 12 months of trip data. ![Token Refresh Proof](Screenshot 2026-02-02 204835.png)
+![BigQuery Auth Proof](Screenshot 2026-02-02 204812.png)
 
-Schema & Table Verification: Confirmed successful connection to the cyclistic_data dataset and the consolidated 2025 table. ![Dataset Verification](Screenshot 2026-02-02 204851.png)
+Automated Token Refresh: The pipeline handles stale tokens automatically, allowing for uninterrupted analysis of 12 months of trip data.
 
-Data Sampling: Initial pulls were limited to test the cleaning logic (Step 02) and visualization logic (Step 03) before scaling to the full dataset. ![Data Sampling Proof](Screenshot 2026-02-02 204753.png)
+![Token Refresh Proof](Screenshot 2026-02-02 204835.png)
+
+Schema & Table Verification: Confirmed successful connection to the cyclistic_data dataset and the consolidated 2025 table. 
+
+![Dataset Verification](Screenshot 2026-02-02 204851.png)
+
+Data Sampling: Initial pulls were limited to test the cleaning logic (Step 02) and visualization logic (Step 03) before scaling to the full dataset. 
+
+![Data Sampling Proof](Screenshot 2026-02-02 204753.png)
 
 
 ### 🏗️ Data Pipeline Architecture
