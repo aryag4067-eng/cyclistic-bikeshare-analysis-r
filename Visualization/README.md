@@ -1,7 +1,5 @@
 # Project Visualizations
 
-# Project Visualizations
-
 ### 1. Total Rides by Day
 [cite_start]**Purpose:** Identify weekly usage patterns[cite: 114, 147].
 **Insight:** Members commute during the week; [cite_start]Casual riders peak on weekends[cite: 18].
