@@ -11,7 +11,8 @@
 ## Tools & Technologies
 * **Google BigQuery**: SQL-based cleaning and large-scale data processing.
 * **RStudio (R)**: Primary environment for deep-dive statistical analysis and professional visualizations.
-* **Tableau Public**: [https://public.tableau.com/app/profile/arya.gupta4856/viz/CyclisticCaseStudyData-DrivenMembershipConversionStrategy/Dashboard1?publish=yes] - Optimized for executive storytelling.
+* **Tableau Public**: [https://public.tableau.com/app/profile/arya.gupta4856/viz/CyclisticCaseStudyData-DrivenMembershipConversionStrategy/Dashboard1?publish=yes]
+- Optimized for executive storytelling.
 * **Google Cloud Storage (GCS)**: Leveraged as a "Staging Area" for high-speed cloud-to-cloud data ingestion.
 
 ---
