@@ -17,7 +17,6 @@ con <- dbConnect(
 
 # 2. Pull a sample for our initial analysis
 # We use the corrected table name we found: combined_2025_full_year
-df_sample <- dbGetQuery(con, "SELECT * FROM `inner-legacy-485410-s8.cyclistic_data.combined_2025_full_year` LIMIT 100")
-
+df_sample <- dbGetQuery(con, "SELECT * FROM `inner-legacy-485410-s8.cyclistic_data.combined_2025_full_year` ")
 # 3. View the data in RStudio's beautiful spreadsheet viewer
 View(df_sample)
