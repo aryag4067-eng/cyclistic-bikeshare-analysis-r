@@ -70,4 +70,4 @@ cyclistic_final %>%
        x = "Month",
        y = "Total Rides",
        color = "User Type") +
-  theme_classic()
+
