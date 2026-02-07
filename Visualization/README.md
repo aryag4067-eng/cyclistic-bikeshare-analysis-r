@@ -1,25 +1,25 @@
 # Project Visualizations
 
 ### 1. Total Rides by Day
-[cite_start]**Purpose:** Identify weekly usage patterns[cite: 114, 147].
-**Insight:** Members commute during the week; [cite_start]Casual riders peak on weekends[cite: 18].
+**Purpose:** Identify weekly usage patterns across the full year of historical trip data.
+**Insight:** Annual members primarily use bikes for weekday commutes, while casual ridership peaks significantly on weekends.
 
 ### 2. Total Rides by Season
-[cite_start]**Purpose:** High-level seasonal volume check[cite: 149].
-[cite_start]**Insight:** Summer is the dominant season for casual growth[cite: 37].
+**Purpose:** Perform a high-level seasonal volume check to identify growth opportunities.
+**Insight:** Summer is the dominant season for casual rider growth, showing a clear opportunity for seasonal marketing.
 
 ### 3. Monthly Trends: Seasonal Growth
-[cite_start]**Purpose:** Pinpoint exactly when ridership spikes[cite: 63, 101].
-**Insight:** Rapid growth starts in March, peaking in August.
+**Purpose:** Pinpoint exactly when ridership spikes throughout the 12-month period.
+**Insight:** Rapid growth in casual ridership begins in March and peaks in August, suggesting an ideal window for membership conversion campaigns.
 
 ### 4. Time of Day Patterns
-[cite_start]**Purpose:** Analyze hourly demand across seasons[cite: 96].
-**Insight:** Casual riders are most active in Summer afternoons/evenings.
+**Purpose:** Analyze hourly demand across different seasons to refine marketing tactics.
+**Insight:** Casual riders are most active during Summer afternoons and evenings, while members maintain steady morning and evening commute hours.
 
 ### 5. Bike Type Preference
-[cite_start]**Purpose:** See which equipment different users prefer[cite: 15, 16].
-[cite_start]**Insight:** Casual riders show a stronger preference for electric bikes for leisure[cite: 17].
+**Purpose:** Determine equipment preferences between user groups to tailor inclusive offerings.
+**Insight:** Casual riders show a higher relative preference for electric bikes compared to annual members.
 
 ### 6. Average Ride Duration
-[cite_start]**Purpose:** Compare the "time-on-bike" value[cite: 112, 142].
-[cite_start]**Insight:** Casual riders stay on bikes twice as long as members, showing high conversion value[cite: 31, 33].
+**Purpose:** Compare trip length to determine the relative value of different user segments.
+**Insight:** Casual riders stay on bikes twice as long as members on average, representing a high-value segment for conversion to annual plans.
