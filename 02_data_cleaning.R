@@ -19,7 +19,7 @@ cyclistic_cleaned <- df_sample %>%
 print(paste("Cleaned rows available for analysis:", nrow(cyclistic_cleaned)))
 library(lubridate)
 
-# 1. Categorize Seasons
+# 5. Categorize Seasons
 cyclistic_final <- cyclistic_cleaned %>%
   mutate(month = month(started_at, label = TRUE)) %>%
   mutate(season = case_when(
@@ -29,7 +29,7 @@ cyclistic_final <- cyclistic_cleaned %>%
     TRUE ~ "Winter"
   ))
 
-# 2. Categorize Time of Day
+# 6. Categorize Time of Day
 cyclistic_final <- cyclistic_final %>%
   mutate(hour = hour(started_at)) %>%
   mutate(time_of_day = case_when(
@@ -39,5 +39,5 @@ cyclistic_final <- cyclistic_final %>%
     TRUE ~ "Night"
   ))
 
-# 3. Final Check
+# 7. Final Check
 View(head(cyclistic_final))
