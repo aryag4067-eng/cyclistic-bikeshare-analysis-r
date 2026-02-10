@@ -1,13 +1,10 @@
-# LOGIC: Cloud Integration. Connects directly to BigQuery to avoid 
-# heavy local CSV downloads and enable scalable analysis.
-
 library(bigrquery)
 library(DBI)
 
-# This pulls the hidden ID from your .Renviron file
 project_id <- Sys.getenv("BQ_PROJECT_ID")
 
-# 1. Establish the Cloud Connection
+bigrquery::bq_auth(email = "aryag4067@gmail.com", cache = FALSE)
+
 con <- dbConnect(
   bigrquery::bigquery(),
   project = project_id,
@@ -15,8 +12,9 @@ con <- dbConnect(
   billing = project_id
 )
 
-# 2. Pull a sample for our initial analysis
-# We use the corrected table name we found: combined_2025_full_year
-df_sample <- dbGetQuery(con, "SELECT * FROM `inner-legacy-485410-s8.cyclistic_data.combined_2025_full_year` ")
-# 3. View the data in RStudio's beautiful spreadsheet viewer
-View(df_sample)
+# 2. Pull FULL DATA (No LIMIT, No Sampling)
+# Note: Ensure your PC has enough RAM for 5.5M rows (~1-2GB)
+df_sample <- dbGetQuery(con, "SELECT * FROM `inner-legacy-485410-s8.cyclistic_data.combined_2025_full_year`")
+
+# 3. VERIFY IMMEDIATELY
+print(paste("Total Rows Pulled:", nrow(df_sample)))
