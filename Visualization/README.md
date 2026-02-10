@@ -38,3 +38,5 @@ These visuals were generated in R using `ggplot2` after a multi-stage data engin
 * **RAM Optimization:** Dropped 6 high-cardinality coordinate and ID columns to reduce the memory footprint by ~1.5 GiB.
 * **Integrity Fixes:** Handled missing station names for electric bikes to preserve data volume.
 * **Aggregation:** Engineered features for seasons and time-of-day, resulting in an optimized **8,060-row summary** for high-performance Tableau reporting.
+
+
