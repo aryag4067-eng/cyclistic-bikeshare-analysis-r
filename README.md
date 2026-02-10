@@ -49,7 +49,7 @@ To quantify the "Engagement Gap," I developed a revenue projection model targeti
 ---
 
 ## Visual Insights & Technical Moat
- Click here to access the Full Interactive Dashboard
+ Click here to access the Full Interactive Dashboard [https://public.tableau.com/app/profile/arya.gupta4856/viz/CyclisticCaseStudyData-DrivenMembershipConversionStrategy/Dashboard1?publish=yes]
 * **Project Scale**: Analyzed 5.5M+ rows of historical trip data.
 * **Financial Model**: Projecting a $13.2M revenue opportunity through segment conversion.
 * **Technical Integrity**: Retained 15% of previously "lost" data via On-Street Lock identification in R.
