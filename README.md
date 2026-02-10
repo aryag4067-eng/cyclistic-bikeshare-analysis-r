@@ -57,11 +57,11 @@ To quantify the "Engagement Gap," I developed a revenue projection model targeti
 
 ---
 
-## 📊 Interactive Dashboard
+## Interactive Dashboard
 Access the full behavioral analysis and financial projections here:
 **[Cyclistic Strategic Growth Dashboard](https://public.tableau.com/app/profile/arya.gupta2072/viz/CyclisticCaseStudyData-DrivenMembershipConversionStrategy/Dashboard1)**
 
-## 💡 Strategic Recommendations
+## Strategic Recommendations
 Based on the **$13.2M revenue opportunity** identified, the following actions are recommended:
 
 * **Seasonal "Summer Pass":** Launch a high-intensity marketing campaign between March and August to capture the 2x leisure duration segment.
