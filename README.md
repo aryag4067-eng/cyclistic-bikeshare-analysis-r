@@ -57,8 +57,16 @@ To quantify the "Engagement Gap," I developed a revenue projection model targeti
 
 ---
 
-## Visual Insights & Technical Moat
- Click here to access the Full Interactive Dashboard [https://public.tableau.com/app/profile/arya.gupta4856/viz/CyclisticCaseStudyData-DrivenMembershipConversionStrategy/Dashboard1?publish=yes]
-* **Project Scale**: Analyzed 5.5M+ rows of historical trip data.
-* **Financial Model**: Projecting a $13.2M revenue opportunity through segment conversion.
-* **Technical Integrity**: Retained 15% of previously "lost" data via On-Street Lock identification in R.
+## 📊 Interactive Dashboard
+Access the full behavioral analysis and financial projections here:
+**[Cyclistic Strategic Growth Dashboard](https://public.tableau.com/app/profile/arya.gupta2072/viz/CyclisticCaseStudyData-DrivenMembershipConversionStrategy/Dashboard1)**
+
+## 💡 Strategic Recommendations
+Based on the **$13.2M revenue opportunity** identified, the following actions are recommended:
+
+* **Seasonal "Summer Pass":** Launch a high-intensity marketing campaign between March and August to capture the 2x leisure duration segment.
+* **Electric Bike Incentives:** Leverage the high casual preference for electric bikes by offering "Member-Only" priority access during peak weekend hours.
+* **Commuter Conversion:** Target casual riders active during the "Morning/Evening Pulse" with personalized membership trials to bridge the gap between leisure and commuting.
+
+---
+*Developed as part of the Google Data Analytics Professional Certificate Capstone.*
