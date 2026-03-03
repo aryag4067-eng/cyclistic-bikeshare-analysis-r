@@ -25,7 +25,7 @@ Based on the identified **$13.2M revenue opportunity**, I recommend:
 * **Electric Bike Priority:** Leverage the strong casual preference for electric bikes by offering "Member-Only" priority access during peak weekend hours.
 * **Commuter Conversion:** Target the "Morning/Evening Pulse" with personalized membership trials for casual riders active during standard commute hours.
 
-### 📈 Refined Strategy (Post-Analysis Insights)
+### Refined Strategy (Post-Analysis Insights)
 
 While the initial analysis identifies a **$13.2M revenue opportunity**, a deeper dive into ride patterns suggests that a "one-size-fits-all" marketing campaign will fail. To maximize ROI, Cyclistic should segment casual riders into three behavioral personas:
 
